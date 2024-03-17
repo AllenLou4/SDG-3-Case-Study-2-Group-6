@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG 3 Good Health and Well-Being - Ideation Document</title>
+    <style>
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h2, h3, h4 {
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+header h2 {
+    color: white;
+    font-size: 2.5em; /* Larger font size for headings */
+    margin-bottom: 0.5em; /* Reduced margin for a compact header */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+article {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+footer p {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+/* Enhance links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #45a049; /* Darker shade of green on hover */
+}
+
+/* Add a subtle hover effect for buttons */
+button:hover,
+button:focus {
+    background-color: #45a049; /* Darker shade of green */
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ideation Document: SDG 3 Good Health and Well-Being</h1>
+        <h2>Application: SPROUT - An app for nutritionists to communicate for the well-being of patients</h2>
+    </header>
+    <section id="introduction">
+        <h2>Introduction and Overview:</h2>
+        <p>Health care is a necessity, including dieting and monitoring calorie intake for well-being. Traditional in-person consultations with nutritionists can be challenging due to traffic and busy schedules. SPROUT addresses this by providing a platform for convenient online communication between patients and nutritionists.</p>
+    </section>
+    <section id="problem-statement">
+        <h2>Problem Statement on SDG 3 - NutriApp:</h2>
+        <p>Due to a lack of access to professional nutrition advice, people often resort to unreliable information, leading to health issues. NutriApp focuses on providing verified nutrition information and consultations within Cebu.</p>
+        <h3>Scopes:</h3>
+        <ul>
+            <li>In-app messaging with a nutritionist</li>
+            <li>On-app verified newsfeed articles</li>
+            <li>Selection of nutritionist/dietitian based on user's needs</li>
+            <li>User and nutritionist profiling</li>
+        </ul>
+    </section>
+    <section id="user-personas">
+        <h2>User Personas:</h2>
+        <p>We created multiple personas that could potentially use the NutriApp for us to have more guidance in developing features and make the result more user-ended. The persona section comprises geographic segmentation, demographic segmentation, psychographic segmentation, behavioral segmentation, persona development, goals, and pain points. Here are the following:
+        </p>
+        <article>
+            <h3>Persona 0: Nutritionist</h3>
+            <ul>
+                <li><strong>Name:</strong> Eugenia Lapit</li>
+                <li><strong>Age:</strong> 23</li>
+                <li><strong>Gender:</strong> Female</li>
+                <li><strong>Occupation:</strong> Registered Nutritionist</li>
+                <li><strong>Income Level:</strong> Upper Class</li>
+                <li><strong>Location:</strong> </li>
+                <li><strong>Marital Status:</strong> </li>  
+            </ul>
+            <h4>Geographic Segmentation:</h4>
+            <p>Eugenia works at a hospital aiding her patients that are mostly athletes and older with what diet works best for them for energy and health benefits
+            </p>
+            <h4>Demographic Information:</h4>
+            <p>Ages ranging from 22-68 are who she caters and avail her services as a dietitian and usually done through a consultation in the hospital she works in
+            </p>
+            <h4>Demographic Segmentation</h4>
+            <p>
+                The patients mostly are professionals that don’t have
+                 time to manage what they eat and have health issues or 
+                 weight problems and must consult with 
+                a professional about their eating habits and nutrient intake.
+            </p>
+            <h4>Psychographic Segmentation:</h4>
+            <p>The patients like the convenience of having online 
+                consultations because of time and travel costs to the hospital 
+                she works in and has a lot of emails regarding inquiries of her 
+                services and she feels that it exhausts her even more looking 
+                at the patients emails and wants an application to manage inquiries 
+                to be efficient and convenient.
+            </p>
+            <h4>Behavioral Segmentation:</h4>
+            <p>Regardless of the price, the patients will still go to the nutritionist
+                 as it is mandatory for them to take care of themselves for health purposes, 
+                 and the things Eugenia does can also be made online like consultations for 
+                 the patients convenience
+            </p>
+            <h4>Persona Development:</h4>
+            <p>Eugenia has been a nutritionist for a very long time, likes the transformation 
+                of her patients from being unhealthy to healthy and fit and likes her job very 
+                much and she thinks her job can be extended online especially even in the post 
+                pandemic with greater technologies she thinks it can be done.
+            </p>
+            <h4>Goals and Pain Points: </h4>
+            <h4>Goals:</h4>
+            <p>Wanting an app that can aid in patient inquiries and also 
+                facilitate concise planning during in-person consultations.</p>
+            <h4>Pain Points:</h4>
+            <p>Not knowing if the patients follow her advice in online consultations 
+                and if they actually care about their bodies</p>
+        </article>
+        <article>
+            <h3>Persona 1: Student</h3>
+            <ul>
+                <li><strong>Name:</strong> Michael Corleone</li>
+                <li><strong>Age:</strong> 20</li>
+                <li><strong>Gender:</strong> Male</li>
+                <li><strong>Occupation:</strong> Student</li>
+                <li><strong>Income Level:</strong> Middle Class</li>
+                <li><strong>Location:</strong> Talamban, Cebu</li>
+                <li><strong>Marital Status:</strong> Single</li>  
+            </ul>
+            <h4>Geographic Segmentation:</h4>
+            <p>Living in an urban area, indicates his preference since it offers 
+                dynamic opportunities in that setting, an advantage for his current status.
+            </p>
+            <h4>Demographic Segmentation</h4>
+            <p>
+                A 20 year old male student that studies Information Technology. His age, 
+                gender, field of study, and student status provide key demographic details shaping 
+                his lifestyle and needs.
+
+            </p>
+            <h4>Psychographic Segmentation:</h4>
+            <ul>
+                <li>His lifestyle in an urban area as a student who works part time, He likely enjoys a 
+                    vibrant social life and exposure to various business opportunities.</li>
+                <li>
+                    Interests to urban culture, computing, coding, networking and science conferences.
+                </li>
+                <li>
+                    He values ambition, education and potential professional growth on what he studied.
+                </li>
+            </ul>
+            <h4>Behavioral Segmentation:</h4>
+            <ul>
+                <li>
+                    His spending habits are most likely limited since he is earning a part-time 
+                    job salary, making him conscious of his budget.
+                </li>
+                <li>
+                    He is likely highly tech-savvy, utilizing digital platforms to his own 
+                    advantage not only for academic research but also for his projects and 
+                    his interests.
+
+                </li>
+            </ul>
+            <h4>Persona Development:</h4>
+            <p>Twenty-year-old Michael is a successful student studying information technology 
+                in Cebu's urban environment. His goal is to succeed academically in IT, and he 
+                actively looks for chances to grow both personally and professionally. He is a very 
+                tech-savvy person who uses internet platforms for networking, coding projects, academic 
+                interests, and staying in touch with the IT community.
+
+            </p>
+            <h4>Goals and Pain Points: </h4>
+            <h4>Goals:</h4>
+            <p>Excel in his IT studies and graduate and 
+                build a strong foundation for a successful career.
+            </p>
+            <h4>Pain Points:</h4>
+            <ul>
+                <li>Limited budget since he is a student with a 
+                    part time job with an interest in leaning to technology.
+                </li>
+                <li>
+                    His time management since juggling academic commitments 
+                    and part time job becomes more challenging overtime not 
+                    to mention he is in an urban setting. Most likely impacts 
+                    his mental health, personal and academic goals and social activities.
+                </li>
+            </ul>
+        </article>
+        <article>
+            <h3>Persona 2: Working Class</h3>
+            <ul>
+                <li><strong>Name:</strong> Lucia Lazarus</li>
+                <li><strong>Age:</strong> 25</li>
+                <li><strong>Gender:</strong> Female</li>
+                <li><strong>Occupation:</strong> Accountant</li>
+                <li><strong>Income Level:</strong> Middle Class</li>
+                <li><strong>Location:</strong> Cebu City, Cebu</li>
+                <li><strong>Marital Status:</strong> Single</li>  
+            </ul>
+            <h4>Geographic Segmentation:</h4>
+            <p>Lucia resides in an urban area, specifically Cebu City, Cebu, indicating 
+                a preference for urban living and access to city amenities and opportunities.
+            </p>
+            <h4>Demographic Segmentation</h4>
+            <p>
+                Lucia belongs to the young adult demographic, being 25 years old and single. 
+                Her lifestyle and needs may differ from those of older or married demographics.
+            </p>
+            <h4>Psychographic Segmentation:</h4>
+            <p>
+                Lucia values health and well-being, seeking ways to maintain a balanced lifestyle 
+                amidst her busy work schedule as an accountant. She may prioritize convenience and 
+                simplicity in managing her nutrition and health-related concerns.
+            </p>
+            <h4>Behavioral Segmentation:</h4>
+            <p>Lucia’s behavior reflects a young professional lifestyle, with limited time 
+                available for personal tasks due to her demanding job. She may seek efficient 
+                solutions to manage her health and nutrition, possibly exploring technological 
+                tools like NutriApp for convenience and support.
+            </p>
+            <h4>Persona Development:</h4>
+            <p>Lucia Lazarus is a 25-year-old accountant residing in the urban area of Cebu City, 
+                Cebu. As a single professional, Lucia leads a busy lifestyle, balancing her career 
+                with personal pursuits. With a middle-class income, she values health and well-being 
+                as integral components of her life.
+            </p>
+            <h4>Goals and Pain Points: </h4>
+            <h4>Goals:</h4>
+            <ul>
+                <li>
+                    Maintaining Health: Lucia aims to maintain her health and well-being despite 
+                    her busy schedule.
+                </li>
+                <li>
+                    Convenience and Simplicity: She seeks convenient solutions to manage her 
+                    nutrition and health-related concerns efficiently.
+                </li>
+            </ul>
+            <h4>Pain Points:</h4>
+            <ul>
+                <li>Time Constraints: Lucia faces time constraints due to her demanding job,
+                     making it challenging to prioritize her health and nutrition.
+                </li>
+                <li>
+                    Making Healthy Choices: She may struggle with making healthy 
+                    food choices consistently, especially when faced with limited time 
+                    or resources.
+                </li>
+            </ul>
+        </article>
+        <article>
+            <h3>Persona 3: Athlete</h3>
+            <ul>
+                <li><strong>Name:</strong> Dwight Llamos</li>
+                <li><strong>Age:</strong> 22</li>
+                <li><strong>Gender:</strong> Male</li>
+                <li><strong>Occupation:</strong> Basketball Player</li>
+                <li><strong>Income Level:</strong> Upper-middle Class</li>
+                <li><strong>Location:</strong> Quezon City, Manila, Philippines</li>
+                <li><strong>Marital Status:</strong> Single</li>  
+            </ul>
+            <h4>Geographic Segmentation:</h4>
+            <p>Dwight lives in an urban area in Quezon City, Manila, Philippines. 
+                He resides in a good environment where most of his needs can be purchased 
+                in many malls.
+            </p>
+            <h4>Demographic Segmentation</h4>
+            <p>
+                He graduated from De La Salle University where he played and pursued 
+                college basketball up till now. Dwight currently has a girlfriend and is 
+                fully in love. Since he is a fresh graduate, he is providing for himself 
+                from his income on college basketball.
+            </p>
+            <h4>Psychographic Segmentation:</h4>
+            <p>
+                Dwight loves basketball so much and likes to play with his friends from the team. 
+                He also likes to workout to maintain his mental health and well-being. He is family-oriented, 
+                he balances his time with his family and also to his other loved ones. 
+                His lifestyle made him a clean person.
+            </p>
+            <h4>Behavioral Segmentation:</h4>
+            <p>
+                As a basketball player, he sometimes gets stressed with all the training. 
+                He also does stress eating, which is a bad habit.
+            </p>
+            <h4>Persona Development:</h4>
+            <p>Dwight grew up as a good basketball player. He has his 
+                mother’s values and his father’s logic, from which he became a great adult
+            </p>
+            <h4>Goals and Pain Points: </h4>
+            <h4>Goals:</h4>
+            <p>To carry the name of our country and go international.
+            </p>
+            <h4>Pain Points:</h4>
+            <p>
+                Stress Eating, for this causes him to destroy his diet maintenance.
+            </p>
+
+        </article>
+    </section>
+    <section id="ideation-and-brainstorming">
+        <h2>Ideation and Brainstorming:</h2>
+        <p>For ideation and brainstorming of ideas, 
+            we used SCAMPER ideation, and for identifying problems and causes, we used a fishbone diagram.
+        </p>
+        <h3>SCAMPER Ideation</h3>
+        <img src="images/SCAMPER.png" alt="scamper">
+        <ul>
+            <li>
+                <strong>Substitute:</strong>
+                <ul>
+                    <li>
+                       <p>
+                        Integrate a goal-setting feature within the app, 
+                        allowing users to set and track specific health and 
+                        nutrition goals alongside their consultations.
+                       </p> 
+                    </li>
+                    <li>
+                        <p>
+                        Offer gamified fitness challenges and activities. 
+                        </p> 
+                     </li>
+                     <li>
+                        <p>
+                         Use AI-powered chat-bots or virtual assistants for basic guidance and support.
+                        </p> 
+                     </li>
+                </ul>
+            </li>
+            <li>
+                <strong>Combine:</strong>
+                <ul>
+                    <li>
+                       <p>
+                        Partner with licensed nutritionist
+                       </p> 
+                    </li>
+                    <li>
+                        <p>
+                            Integrate the system with grocery 
+                            delivery services for convenient access to healthy food options.
+                        </p> 
+                     </li>
+                     <li>
+                        <p>
+                            Partner with FDA for compliance and risk mitigation
+                        </p> 
+                     </li>
+                </ul>
+            </li>
+            <li>
+                <strong>Adapt:</strong>
+                <ul>
+                    <li>
+                       <p>
+                        App creates convenience to meet a professional in the comfort 
+                        of their time
+                       </p> 
+                    </li>
+                    <li>
+                        <p>
+                            Adapt the system to specific dietary needs 
+                            (e.g., allergies, intolerance, cultural preferences).
+                        </p> 
+                     </li>
+                     <li>
+                        <p>
+                            App will service the user like a face to face consulting
+                        </p> 
+                     </li>
+                </ul>
+            </li>
+            <li>
+                <strong>Modify:</strong>
+                <ul>
+                    <li>
+                       <p>
+                        Modify the app to include a feature that tracks and magnifies 
+                        the progress of the user's health metrics over time.
+                       </p> 
+                    </li>
+                    <li>
+                        <p>
+                         Use social media integration to encourage peer support and accountability.
+                        </p> 
+                     </li>
+                     <li>
+                        <p>
+                            Gamify the system to make healthy eating and exercise more engaging and motivating.
+                        </p> 
+                     </li>
+                </ul>
+            </li>
+            <li>
+                <strong>Put to Other Use:</strong>
+                <ul>
+                    <li>
+                       <p>
+                        Offer the system to schools and workplaces to promote healthy lifestyles.
+                       </p> 
+                    </li>
+                    <li>
+                        <p>
+                            Use to promote good  health practices near you
+                        </p> 
+                     </li>
+                </ul>
+            </li>
+            <li>
+                <strong>Eliminate:</strong>
+                <ul>
+                    <li>
+                       <p>
+                        Reduce the need to go to the clinic for nutritional tips
+                       </p> 
+                    </li>
+                    <li>
+                        <p>
+                            Eliminate  questionable sources of information relating to nutrition
+                        </p> 
+                     </li>
+                     <li>
+                        <p>
+                            Eliminate the need for manual data entry by integrating with other health and fitness apps.                        
+                        </p> 
+                     </li>
+                     <li>
+                        <p>
+                            Reduce the cost of the system by using open-source software resources.   
+                        </p>                 
+                     </li>
+                </ul>
+            </li>
+            <li>
+                <strong>Reverse:</strong>
+                <ul>
+                    <li>
+                       <p>
+                        The nutritionist can also have an account as a user that 
+                        needs of service
+                       </p> 
+                    </li>
+                    <li>
+                        <p>
+                            Offer rewards for positive behavior changes instead 
+                            of punishments for unhealthy choices.
+                        </p> 
+                     </li>
+                    
+                </ul>
+            </li>
+        </ul>
+        <h2>Fishbone Diagram</h2>
+        <img src="images/Fishbone.png" alt="Fishbone">
+        <img src="images/Root Causes.png" alt="Root Causes">
+        <h2>Problem</h2>
+        <p>How can we provide people with the best health advice through your phone?
+        </p>
+        <ul>
+            
+            <li>
+                <h3>People:</h3>
+                <strong>Expertise</strong>
+                <ul>
+                    <li>
+                        Are the health advisors qualified and have relevant experience?
+                    </li>
+                    <li>
+                        Are there different specialties available (e.g., nutrition, fitness, mental health)?
+                    </li>
+                    <li>
+                        How is their knowledge continuously updated?
+                    </li>
+                </ul>
+                <strong>Proposed Solution:</strong>
+                <ul>
+                    <li>Partner with accredited and licensed healthcare professionals: 
+                        Ensure advisors have relevant experience and qualifications in 
+                        nutrition, fitness, or mental health depending on their focus.
+                    </li>
+                    <li>Establish a clear vetting process: Evaluate advisors' 
+                        credentials, experience, and communications skills.
+                    </li>
+                    <li>
+                        Offer ongoing training and development: Keep advisors 
+                        updated on the latest evidence-based practices and trends.
+                    </li>
+                </ul>
+                <strong>Availability:</strong>
+                <ul>
+                    <li>
+                        Are advisors available when users need them (e.g., 24/7 live chat, scheduled appointments)?
+                    </li>
+                    <li>
+                        Are there different language options available?
+                    </li>
+                </ul>
+                <strong>Proposed Solution</strong>
+                <ul>
+                    <li>
+                        Offer a variety of communication channels: Live chat, messaging, scheduled calls, 
+                        or a combination depending on user preferences and urgency.
+                    </li>
+                    <li>
+                        Consider language options: Cater to a wider audience by 
+                        providing advisors fluent in multiple languages.
+                    </li>
+                    <li>
+                        Set clear response times: Establish and communicate reasonable 
+                        wait times for different communication channels.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h3>Process</h3>
+                <strong>Monitoring and Follow-up</strong>
+                <ul>
+                    <li>
+                        Does the system track progress towards goals?
+                    </li>
+                    <li>
+                        Does it offer reminders and motivational messages?
+                    </li>
+                    <li>
+                        Does it allow for adjustments to the plan based on feedback?
+                    </li>
+                </ul>
+                <strong>Proposed Solution:</strong>
+                <ul>
+                    <li>
+                        Notification system for both parties (nutritionist and client)
+                    </li>
+                    <li>
+                        Adjustments and feedback: Allow users to provide feedback 
+                        and enable advisors to modify plans based on progress.
+                    </li>
+                    <li>
+                        Track progress: Offer progress reports and 
+                        visualizations to motivate users and measure effectiveness.
+                    </li>
+                </ul>
+                <strong>Mode of Payment</strong>
+                <strong>Proposed Solution:</strong>
+                <ul>
+                    <li>
+                        Gcash
+                    </li>
+                    <li>
+                        Cash
+                    </li>
+                    <li>
+                        Card
+                    </li>
+                </ul>
+                <strong>How can two users communicate/ interact?</strong>
+                <strong>Proposed Solution:</strong>
+                <ul>
+                    <li>
+                        App Chat / Call
+                    </li>
+                </ul>
+                <strong>Fair Distributing of Clients for Nutritionist</strong>
+                <ul>
+                    <li>
+                        Algorithm that automatically balance out the distributing of clients
+                    </li>
+                </ul>
+          </li>
+          <li>
+                <h3>User Experience</h3>
+                <ul>
+                    <li>
+                        How can I find trusted nutritionists?
+                    </li>
+                    <li>
+                        Are there available nutritionists at this specific time?
+                    </li>
+                    <li>
+                        Can this nutritionist be trusted?
+                    </li>
+                    <li>
+                        Not tech-savvy
+                    </li>
+                </ul>
+                <strong>Proposed Solution:</strong>
+                <ul>
+                    <li>
+                        Shows top nutritionists based on reviews and ratings
+                    </li>
+                    <li>
+                        Can sort the nutritionists based on time availability and medical expertise
+                    </li>
+                    <li>
+                        On boarding tutorial
+                    </li>
+                    <li>
+                        Make the UI and flow of the app more intuitive (Icons, colors and all)
+                    </li>
+                    <li>
+                        Have an option or button to review the tutorial
+                    </li>
+                </ul>
+          </li>
+          <li>
+            <h3>Technology</h3>
+            <strong>
+                App can be accessed via
+            </strong>
+            
+                <ul>
+                    <li>
+                        <strong>Proposed Solution:</strong>
+                    </li>
+                    <li>
+                        Using Smartphone
+                    </li>
+                    <li>
+                        Mobile Data
+                    </li>
+                    <li>
+                        Wifi
+                    </li>
+                </ul>
+          </li>
+          <li>
+            <h3>Pricing</h3>
+           
+            <ul>
+                <li>
+                    <strong>Wanting the best advice for a cheap price:</strong>
+                </li>
+                <li>
+                    <strong>Proposed Solution:</strong>
+                </li>
+                <li>
+                    Prices can be sorted by price
+                </li>
+                <li>
+                    AI chatbot for common questions
+                </li>
+            </ul>
+            <strong>Wanting to negotiate on the price of consultation:</strong>
+            <strong>Proposed Solution:</strong>
+            <ul>
+                <li>
+                    Negotiable prices are dependent on the nutritionist's specifications 
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <strong>Are there different tiers with varying features and benefits?</strong>
+                </li>
+                <li>
+                    <strong>Are there free trials or introductory offers?</strong>
+                </li>
+                <li>
+                    <strong>Is the pricing transparent and easy to understand?</strong>
+                </li>
+                <li>
+                    <strong>Proposed Solution:</strong>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    Transparent pricing: Clearly communicate pricing details, including subscription length, renewal terms, and any hidden fees.
+                </li>
+                <li>
+                    Free trials: Provide introductory periods to allow users to experience the app before committing.
+                </li>
+                <li>
+                    Tiered pricing: Offer different subscription levels with varying features and benefits to cater to diverse needs and budgets.
+                </li>
+            </ul>
+            </li>
+            <li>
+                <h3>Environment</h3>
+                <ul>
+                    <li>
+                        <strong>Emergency Consultation</strong>
+                    </li>
+                    <li>
+                        <strong>Proposed Solution:</strong>
+                    </li>
+                    <li>
+                        Fast Queueing
+                    </li>
+                    <li>
+                        A status indicator where the nutritionist will be available for emergency
+                    </li>
+                </ul>
+                    <li>
+                        <strong>Does the app foster a supportive and inclusive community?</strong>
+                    </li>
+                    <li>
+                        <strong>Does it offer opportunities for users to connect and share experiences?</strong>
+                    </li>
+                    <li>
+                        <strong>Does it promote positive and realistic goals?</strong>
+                    </li>
+                
+                    <li>
+                        <Strong>Proposed Solution:</Strong>
+                    </li>
+                
+                <ul>
+                    <li>
+                        Create forums and groups: Enable users to 
+                        connect, share experiences, and build support networks.
+                    </li>
+                    <li>
+                        Partner with health organizations: Collaborate with organizations 
+                        promoting healthy and sustainable living to reach wider audiences.
+                    </li>
+                    <li>
+                        Promote positive health goals: Focus on realistic, 
+                        achievable goals that emphasize well-being over aesthetics.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h3>Root Causes:</h3>
+        <ul>
+            <li>
+                <strong>Inquiries for consultations are done thru texting/offline
+                </strong>
+            </li>
+            <li>
+                <strong>Inquiring for consultations are done onsite</strong>
+            </li>
+            <li>
+                <strong>Different types of users
+                </strong>
+            </li>
+            <li>
+                <strong>Lack of user data
+                </strong>
+            </li>
+            <li>
+                <strong>Limited development resources
+                </strong>
+            </li>
+            <li>
+                <strong>
+                    From popular belief people would believe facts 
+                that are inaccurate and misled others leading to unhealthy dieting
+                </strong>
+            </li>
+            <li>
+                <strong>
+                    People are doing unhealthy things at a very young age
+                </strong>
+            </li>
+            <li>
+                <strong>
+                    Patients will miss their appointment 
+                    due to various events such as traffic or place too far from hospital
+                </strong>
+            </li>
+            <li>
+                <strong>
+                    Convenience and Accessibility
+                </strong>
+            </li>
+            <li>
+                <strong>
+                    Health awareness basing on evidence-based information
+                </strong>
+            </li>
+        </ul>
+    </section>
+    <section id="wireframes">
+        <h2>Wireframes:</h2>
+        <h3>
+            Nutrionist Side
+        </h3>
+        <img src="images/Nutrionist.png" alt="Nutrionist">
+        <h3>
+            Client/User Side
+        </h3>
+        <img src="images/Client.png" alt="Client/User">
+    </section>
+    <footer>
+        <p>&copy; 2024 SPROUT. All rights reserved.</p>
+    </footer>
+</body>
+</html>
